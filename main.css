@@ -1,0 +1,49 @@
+.player-container {
+    margin: 15px;
+    font-size: large;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border: 2px;
+    border-style: solid;
+    padding: 3%;
+}
+
+.column#player-one-container{
+    text-align: right;
+}
+
+.column#player-two-container {
+    text-align: left;
+}
+
+.column#score {
+    flex: 0 1 25%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    width: 25%;
+    font-size: 30px;
+  }

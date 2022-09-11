@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Card Game!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="button-container">
+        <button class="button" id="startbutton" onclick="war.start();">The War Against Two!</button>
+    </div>
+    <div class="player-container">
+        <div class="row">
+            <div class="column" id="player-one-container">
+                <h1 id="one" class="player">Opponent 1</h1>
+                <ul class="player-one-score"></ul>
+                <h2 id="player-one-total-score">Score: 0</h2>
+            </div>
+            <div class="column" id="score">
+                <h1 class="score-title">Let the War Commence!</h1> 
+                <ul class="score-list"></ul>
+                <h2 id="winner"></h2>
+            </div>
+            <div class="column" id="player-two-container">
+                <h1 id="two" class="player">Opponent 2</h1>
+                <ul class="player-two-score"></ul>
+                <h2 id="player-two-total-score">Score: 0</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
